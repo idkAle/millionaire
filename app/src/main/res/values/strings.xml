@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">millionaireApp</string>
+    <string name="Q1">In ancient Egyptian mythology, who was the god of the sun?</string>
+    <string name="Q2">The ancient Inca ruins of Machu Picchu in which country?</string>
+    <string name="Q3">At which London landmark was Anne Boleyn executed</string>
+    <string name="Q4">A Fire Hydrant In What City Gets A Fresh Coat Of Gold Paint Each Year In Thanks For Its Service In 1906?</string>
+    <string name="Q5">Introduced In 1914 And Still In Use, Whose Ad Slogan Was Designed To Emphasize Its Ability To Flow In Bad Weather?</string>
+    <string name="Q6">Who Is The Only Best Actress Oscar Winner To Also Win An Oscar For Best Original Song?</string>
+    <string name="Q7">By What Name Was The City Of St. Petersburg Known Between 1924-1991?</string>
+    <string name="confirm">Confirm</string>
+    <string name="toolbar">Homework - Who Wants To Be a Millionaire</string>
+    <string name="you_earned_0">You Earned: $0</string>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity6"
+    android:orientation="vertical">
+
+    <!--  Toolbar  -->
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#79077820"
+        app:title="@string/toolbar" />
+
+    <!--  TextView for the money earned  -->
+    <TextView
+        android:id="@+id/moneyEarned"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/my_toolbar"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="20dp"
+        android:textColor="@color/score"
+        android:textSize="35sp"
+        android:text="@string/you_earned_0"
+        />
+
+    <!--  TextView for the Question  -->
+    <TextView
+        android:id="@+id/question"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/moneyEarned"
+        android:layout_margin="25dp"
+        android:textSize="20sp"
+        android:text="@string/Q6" />
+
+    <!--  Options  -->
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/question"
+        android:layout_centerHorizontal="true"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/Option1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <RadioButton
+            android:id="@+id/Option2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Option3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <RadioButton
+            android:id="@+id/Option4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </RadioGroup>
+
+    <!--  Submit Button  -->
+    <TextView
+        android:id="@+id/submit_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:padding="10dp"
+        android:textSize="20sp"
+        android:background="@color/button"
+        android:text="@string/confirm"/>
+
+
+</RelativeLayout>
